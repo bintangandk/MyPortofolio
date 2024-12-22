@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Ronaldo - Free Bootstrap 4 Template by Colorlib</title>
+    <title>BintangDev</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -29,7 +29,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><span>R</span>onaldo</a>
+            <a class="navbar-brand" href="index.html"><span>B</span>intangDev</a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
                 data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
@@ -55,10 +55,10 @@
                 <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
                     <div class="text text-center">
                         <span class="subheading">Hey! I am</span>
-                        <h1>Ronaldo Fredrickson</h1>
+                        <h1>Mohammad Nor Bintang Andika Ilhami</h1>
                         <h2>I'm a
                             <span class="txt-rotate" data-period="2000"
-                                data-rotate='[ "Web Designer.", "Developer.", "Photographer.", "Marketer.", "Blogger" ]'></span>
+                                data-rotate='[ "Web Designer.", "Web Developer.", "UI/UX." ]'></span>
                         </h2>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                     <div class="img-about img d-flex align-items-stretch">
                         <div class="overlay"></div>
                         <div class="img d-flex align-self-stretch align-items-center"
-                            style="background-image:url(images/about.jpg);">
+                            style="background-image:url(assets/images/about.jpg);">
                         </div>
                     </div>
                 </div>
@@ -91,19 +91,18 @@
                             <p>A small river named Duden flows by their place and supplies it with the necessary
                                 regelialia.</p>
                             <ul class="about-info mt-4 px-md-0 px-2">
-                                <li class="d-flex"><span>Name:</span> <span>Ronaldo Fredrickson</span></li>
-                                <li class="d-flex"><span>Date of birth:</span> <span>November 28, 1989</span></li>
-                                <li class="d-flex"><span>Address:</span> <span>San Francisco CA 97987 USA</span></li>
-                                <li class="d-flex"><span>Zip code:</span> <span>1000</span></li>
-                                <li class="d-flex"><span>Email:</span> <span>ronaldo@gmail.com</span></li>
-                                <li class="d-flex"><span>Phone: </span> <span>+1-2234-5678-9-0</span></li>
+                                <li class="d-flex"><span>Name:</span> <span>Mohammad Nor Bintang Andika Ilhami</span></li>
+                                <li class="d-flex"><span>Date of birth:</span> <span>June 09, 2024</span></li>
+                                <li class="d-flex"><span>Address:</span> <span>Perum Mastrip,Sumbersari 68121 Jember. Indonesia</span></li>
+                                <li class="d-flex"><span>Email:</span> <span>bintangsmnp@gmail.com</span></li>
+                                <li class="d-flex"><span>Phone: </span> <span>+62-748100201</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="counter-wrap ftco-animate d-flex mt-md-3">
                         <div class="text">
                             <p class="mb-4">
-                                <span class="number" data-number="120">0</span>
+                                <span class="number" data-number="8">0</span>
                                 <span>Project complete</span>
                             </p>
                             <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
@@ -162,9 +161,9 @@
                                 <span class="flaticon-ideas"></span>
                             </div>
                             <div class="text pl-3">
-                                <span class="date">2014-2015</span>
-                                <h2>Bachelor of Science in Computer Science</h2>
-                                <span class="position">Cambridge University</span>
+                                <span class="date">2022-2026</span>
+                                <h2>Bachelor of Informatics Engineering</h2>
+                                <span class="position">Politeknik Negeri Jember</span>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary
                                     regelialia. It is a paradisematic country, in which roasted parts of sentences fly
                                     into your mouth.</p>
@@ -175,15 +174,15 @@
                                 <span class="flaticon-ideas"></span>
                             </div>
                             <div class="text pl-3">
-                                <span class="date">2014-2015</span>
-                                <h2>Computer Processing Systems/Computer Software</h2>
-                                <span class="position">Cambridge University</span>
+                                <span class="date">2019-2022</span>
+                                <h2>Computer & Network Engineering</h2>
+                                <span class="position">SMK Negeri 1 Sumenep</span>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary
                                     regelialia. It is a paradisematic country, in which roasted parts of sentences fly
                                     into your mouth.</p>
                             </div>
                         </div>
-                        <div class="resume-wrap d-flex ftco-animate">
+                        {{-- <div class="resume-wrap d-flex ftco-animate">
                             <div class="icon d-flex align-items-center justify-content-center">
                                 <span class="flaticon-ideas"></span>
                             </div>
@@ -208,19 +207,19 @@
                                     regelialia. It is a paradisematic country, in which roasted parts of sentences fly
                                     into your mouth.</p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
 
                     <div id="page-2" class= "page two">
                         <h2 class="heading">Experience</h2>
-                        <div class="resume-wrap d-flex ftco-animate">
+						<div class="resume-wrap d-flex ftco-animate">
                             <div class="icon d-flex align-items-center justify-content-center">
                                 <span class="flaticon-ideas"></span>
                             </div>
                             <div class="text pl-3">
-                                <span class="date">2014-2015</span>
-                                <h2>Software Developer</h2>
-                                <span class="position">Cambridge University</span>
+                                <span class="date">August-Des 2024</span>
+                                <h2>Web & IoT Developer </h2>
+                                <span class="position">Project INOVOKASI 2024 - Politeknik Negeri Jember</span>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary
                                     regelialia. It is a paradisematic country, in which roasted parts of sentences fly
                                     into your mouth.</p>
@@ -231,15 +230,15 @@
                                 <span class="flaticon-ideas"></span>
                             </div>
                             <div class="text pl-3">
-                                <span class="date">2014-2015</span>
-                                <h2>Web Designer</h2>
-                                <span class="position">Cambridge University</span>
+                                <span class="date">Sep-Des 2023</span>
+                                <h2>Frontend Developer & UI/UX</h2>
+                                <span class="position">Intern on JTI Innovation Center - Politeknik Negeri Jember</span>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary
                                     regelialia. It is a paradisematic country, in which roasted parts of sentences fly
                                     into your mouth.</p>
                             </div>
                         </div>
-                        <div class="resume-wrap d-flex ftco-animate">
+                        {{-- <div class="resume-wrap d-flex ftco-animate">
                             <div class="icon d-flex align-items-center justify-content-center">
                                 <span class="flaticon-ideas"></span>
                             </div>
@@ -290,48 +289,14 @@
                                     regelialia. It is a paradisematic country, in which roasted parts of sentences fly
                                     into your mouth.</p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     <div id="page-3" class= "page three">
                         <h2 class="heading">Skills</h2>
                         <div class="row progress-circle mb-5">
                             <div class="col-lg-4 mb-4">
                                 <div class="bg-white rounded-lg shadow p-4">
-                                    <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
-
-                                    <!-- Progress bar 1 -->
-                                    <div class="progress mx-auto" data-value='90'>
-                                        <span class="progress-left">
-                                            <span class="progress-bar border-primary"></span>
-                                        </span>
-                                        <span class="progress-right">
-                                            <span class="progress-bar border-primary"></span>
-                                        </span>
-                                        <div
-                                            class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                            <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
-                                        </div>
-                                    </div>
-                                    <!-- END -->
-
-                                    <!-- Demo info -->
-                                    <div class="row text-center mt-4">
-                                        <div class="col-6 border-right">
-                                            <div class="h4 font-weight-bold mb-0">28%</div><span
-                                                class="small text-gray">Last week</span>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="h4 font-weight-bold mb-0">60%</div><span
-                                                class="small text-gray">Last month</span>
-                                        </div>
-                                    </div>
-                                    <!-- END -->
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 mb-4">
-                                <div class="bg-white rounded-lg shadow p-4">
-                                    <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+                                    <h2 class="h5 font-weight-bold text-center mb-4">Laravel</h2>
 
                                     <!-- Progress bar 1 -->
                                     <div class="progress mx-auto" data-value='80'>
@@ -349,7 +314,7 @@
                                     <!-- END -->
 
                                     <!-- Demo info -->
-                                    <div class="row text-center mt-4">
+                                    {{-- <div class="row text-center mt-4">
                                         <div class="col-6 border-right">
                                             <div class="h4 font-weight-bold mb-0">28%</div><span
                                                 class="small text-gray">Last week</span>
@@ -358,14 +323,48 @@
                                             <div class="h4 font-weight-bold mb-0">60%</div><span
                                                 class="small text-gray">Last month</span>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     <!-- END -->
                                 </div>
                             </div>
 
                             <div class="col-lg-4 mb-4">
                                 <div class="bg-white rounded-lg shadow p-4">
-                                    <h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
+                                    <h2 class="h5 font-weight-bold text-center mb-4">IoT</h2>
+
+                                    <!-- Progress bar 1 -->
+                                    <div class="progress mx-auto" data-value='70'>
+                                        <span class="progress-left">
+                                            <span class="progress-bar border-primary"></span>
+                                        </span>
+                                        <span class="progress-right">
+                                            <span class="progress-bar border-primary"></span>
+                                        </span>
+                                        <div
+                                            class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                            <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+                                        </div>
+                                    </div>
+                                    <!-- END -->
+
+                                    <!-- Demo info -->
+                                    {{-- <div class="row text-center mt-4">
+                                        <div class="col-6 border-right">
+                                            <div class="h4 font-weight-bold mb-0">28%</div><span
+                                                class="small text-gray">Last week</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="h4 font-weight-bold mb-0">60%</div><span
+                                                class="small text-gray">Last month</span>
+                                        </div>
+                                    </div> --}}
+                                    <!-- END -->
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4">
+                                <div class="bg-white rounded-lg shadow p-4">
+                                    <h2 class="h5 font-weight-bold text-center mb-4">SQL</h2>
 
                                     <!-- Progress bar 1 -->
                                     <div class="progress mx-auto" data-value='75'>
@@ -383,7 +382,7 @@
                                     <!-- END -->
 
                                     <!-- Demo info -->
-                                    <div class="row text-center mt-4">
+                                    {{-- <div class="row text-center mt-4">
                                         <div class="col-6 border-right">
                                             <div class="h4 font-weight-bold mb-0">28%</div><span
                                                 class="small text-gray">Last week</span>
@@ -392,7 +391,7 @@
                                             <div class="h4 font-weight-bold mb-0">60%</div><span
                                                 class="small text-gray">Last month</span>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     <!-- END -->
                                 </div>
                             </div>
@@ -400,20 +399,9 @@
                         <div class="row">
                             <div class="col-md-6 animate-box">
                                 <div class="progress-wrap ftco-animate">
-                                    <h3>Photoshop</h3>
+                                    <h3>UI/UX</h3>
                                     <div class="progress">
-                                        <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
-                                            aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                            <span>90%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 animate-box">
-                                <div class="progress-wrap ftco-animate">
-                                    <h3>jQuery</h3>
-                                    <div class="progress">
-                                        <div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+                                        <div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
                                             aria-valuemin="0" aria-valuemax="100" style="width:85%">
                                             <span>85%</span>
                                         </div>
@@ -422,29 +410,40 @@
                             </div>
                             <div class="col-md-6 animate-box">
                                 <div class="progress-wrap ftco-animate">
-                                    <h3>HTML5</h3>
+                                    <h3>MySQL</h3>
                                     <div class="progress">
-                                        <div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-                                            aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                                            <span>95%</span>
+                                        <div class="progress-bar color-2" role="progressbar" aria-valuenow="75"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                            <span>75%</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 animate-box">
                                 <div class="progress-wrap ftco-animate">
-                                    <h3>CSS3</h3>
+                                    <h3>HTML</h3>
                                     <div class="progress">
-                                        <div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+                                        <div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                            <span>80%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box">
+                                <div class="progress-wrap ftco-animate">
+                                    <h3>Figma</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-5" role="progressbar" aria-valuenow="90"
                                             aria-valuemin="0" aria-valuemax="100" style="width:90%">
                                             <span>90%</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 animate-box">
+							<div class="col-md-6 animate-box">
                                 <div class="progress-wrap ftco-animate">
-                                    <h3>WordPress</h3>
+                                    <h3>CSS</h3>
                                     <div class="progress">
                                         <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
                                             aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -453,13 +452,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 animate-box">
+							<div class="col-md-6 animate-box">
                                 <div class="progress-wrap ftco-animate">
-                                    <h3>SEO</h3>
+                                    <h3>JS</h3>
                                     <div class="progress">
-                                        <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-                                            aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                            <span>80%</span>
+                                        <div class="progress-bar color-5" role="progressbar" aria-valuenow="50"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                            <span>50%</span>
                                         </div>
                                     </div>
                                 </div>
@@ -626,7 +625,7 @@
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/work-1.jpg);">
+                        style="background-image: url(assets/images/work-1.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -636,7 +635,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/work-2.jpg);">
+                        style="background-image: url(assets/images/work-2.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -647,7 +646,7 @@
 
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/work-3.jpg);">
+                        style="background-image: url(assets/images/work-3.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -657,7 +656,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/work-4.jpg);">
+                        style="background-image: url(assets/images/work-4.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -667,7 +666,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/work-5.jpg);">
+                        style="background-image: url(assets/images/work-5.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -677,7 +676,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/work-6.jpg);">
+                        style="background-image: url(assets/images/work-6.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -741,10 +740,10 @@
             <div class="row d-flex">
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry justify-content-end">
-                        <a href="{{ route ('single')}}" class="block-20" style="background-image: url('images/image_1.jpg');">
+                        <a href="{{ route ('single')}}" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
                         </a>
                         <div class="text mt-3 float-right d-block">
-                            <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business
+                            <h3 class="heading"><a href="{{ route ('single')}}">Why Lead Generation is Key for Business
                                     Growth</a></h3>
                             <div class="d-flex align-items-center mb-3 meta">
                                 <p class="mb-0">
@@ -760,10 +759,10 @@
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry justify-content-end">
-                        <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+                        <a href="{{ route ('single')}}" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
                         </a>
                         <div class="text mt-3 float-right d-block">
-                            <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business
+                            <h3 class="heading"><a href="{{ route ('single')}}">Why Lead Generation is Key for Business
                                     Growth</a></h3>
                             <div class="d-flex align-items-center mb-3 meta">
                                 <p class="mb-0">
@@ -779,10 +778,10 @@
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry">
-                        <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+                        <a href="{{ route ('single')}}" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
                         </a>
                         <div class="text mt-3 float-right d-block">
-                            <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business
+                            <h3 class="heading"><a href="{{ route ('single')}}">Why Lead Generation is Key for Business
                                     Growth</a></h3>
                             <div class="d-flex align-items-center mb-3 meta">
                                 <p class="mb-0">
@@ -800,7 +799,7 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)">
+    <section class="ftco-section ftco-hireme img" style="background-image: url(assets/images/bg_1.jpg)">
         <div class="overlay"></div>
         <div class="container">
             <div class="row justify-content-center">
@@ -893,7 +892,7 @@
                 </div>
 
                 <div class="col-md-6 d-flex">
-                    <div class="img" style="background-image: url(images/about.jpg);"></div>
+                    <div class="img" style="background-image: url(assets/images/about.jpg);"></div>
                 </div>
             </div>
         </div>
