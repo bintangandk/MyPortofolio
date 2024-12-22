@@ -8,20 +8,20 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/open-iconic-bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/open-iconic-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/aos.css') }}">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/ionicons.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/icomoon.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/icomoon.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -29,7 +29,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><span>R</span>onaldo</a>
+            <a class="navbar-brand" href="{{route('portofolio')}}"><span>R</span>onaldo</a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
                 data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
@@ -37,17 +37,17 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
-                    <li class="nav-item"><a href="index.html#home-section" class="nav-link"><span>Home</span></a></li>
-                    <li class="nav-item"><a href="index.html#about-section" class="nav-link"><span>About</span></a></li>
-                    <li class="nav-item"><a href="index.html#resume-section" class="nav-link"><span>Resume</span></a>
+                    <li class="nav-item"><a href="{{route('portofolio')}}#home-section" class="nav-link"><span>Home</span></a></li>
+                    <li class="nav-item"><a href="{{route('portofolio')}}#about-section" class="nav-link"><span>About</span></a></li>
+                    <li class="nav-item"><a href="{{route('portofolio')}}#resume-section" class="nav-link"><span>Resume</span></a>
                     </li>
-                    <li class="nav-item"><a href="index.html#services-section"
+                    <li class="nav-item"><a href="{{route('portofolio')}}#services-section"
                             class="nav-link"><span>Services</span></a></li>
-                    <li class="nav-item"><a href="index.html#projects-section"
+                    <li class="nav-item"><a href="{{route('portofolio')}}#projects-section"
                             class="nav-link"><span>Projects</span></a></li>
-                    <li class="nav-item"><a href="index.html#blog-section" class="nav-link"><span>My Blog</span></a>
+                    <li class="nav-item"><a href="{{route('portofolio')}}blog-section" class="nav-link"><span>My Blog</span></a>
                     </li>
-                    <li class="nav-item"><a href="index.html#contact-section" class="nav-link"><span>Contact</span></a>
+                    <li class="nav-item"><a href="{{route('portofolio')}}contact-section" class="nav-link"><span>Contact</span></a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,7 @@
                 <div class="col-lg-10 ftco-animate d-flex align-items-center">
                     <div class="text text-center">
                         <h1 class="mb-3 bread">Blog Single Post</h1>
-                        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
+                        <p class="breadcrumbs"><span class="mr-2"><a href="{{route('portofolio')}}">Home <i
                                         class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a
                                     href="blog.html">Blog <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog
                                 Single <i class="ion-ios-arrow-forward"></i></span></p>
@@ -81,7 +81,7 @@
                         perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae
                         voluptates soluta architecto tempora.</p>
                     <p>
-                        <img src="{{ asset ('assets/images/image_3.jpg') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/images/image_3.jpg') }}" alt="" class="img-fluid">
                     </p>
                     <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat
                         sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem
@@ -93,7 +93,7 @@
                         Error dolore voluptas, omnis molestias odio dignissimos culpa ex earum nisi consequatur quos
                         odit quasi repellat qui officiis reiciendis incidunt hic non? Debitis commodi aut, adipisci.</p>
                     <p>
-                        <img src="{{ asset ('assets/images/image_3.jpg') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/images/image_3.jpg') }}" alt="" class="img-fluid">
                     </p>
                     <p>Quisquam esse aliquam fuga distinctio, quidem delectus veritatis reiciendis. Nihil explicabo
                         quod, est eos ipsum. Unde aut non tenetur tempore, nisi culpa voluptate maiores officiis quis
@@ -124,7 +124,8 @@
 
                     <div class="about-author d-flex p-4 bg-light">
                         <div class="bio mr-5">
-                            <img src="{{ asset ('assets/images/person_1.jpg') }}" alt="Image placeholder" class="img-fluid mb-4">
+                            <img src="{{ asset('assets/images/person_1.jpg') }}" alt="Image placeholder"
+                                class="img-fluid mb-4">
                         </div>
                         <div class="desc">
                             <h3>George Washington</h3>
@@ -140,7 +141,7 @@
                         <ul class="comment-list">
                             <li class="comment">
                                 <div class="vcard bio">
-                                    <img src="{{ asset ('assets/images/person_1.jpg') }}" alt="Image placeholder">
+                                    <img src="{{ asset('assets/images/person_1.jpg') }}" alt="Image placeholder">
                                 </div>
                                 <div class="comment-body">
                                     <h3>John Doe</h3>
@@ -154,7 +155,7 @@
 
                             <li class="comment">
                                 <div class="vcard bio">
-                                    <img src="{{ asset ('assets/images/person_1.jpg') }}" alt="Image placeholder">
+                                    <img src="{{ asset('assets/images/person_1.jpg') }}" alt="Image placeholder">
                                 </div>
                                 <div class="comment-body">
                                     <h3>John Doe</h3>
@@ -168,7 +169,8 @@
                                 <ul class="children">
                                     <li class="comment">
                                         <div class="vcard bio">
-                                            <img src="{{ asset ('assets/images/person_1.jpg') }}" alt="Image placeholder">
+                                            <img src="{{ asset('assets/images/person_1.jpg') }}"
+                                                alt="Image placeholder">
                                         </div>
                                         <div class="comment-body">
                                             <h3>John Doe</h3>
@@ -184,7 +186,8 @@
                                         <ul class="children">
                                             <li class="comment">
                                                 <div class="vcard bio">
-                                                    <img src="{{ asset ('assets/images/person_1.jpg') }}" alt="Image placeholder">
+                                                    <img src="{{ asset('assets/images/person_1.jpg') }}"
+                                                        alt="Image placeholder">
                                                 </div>
                                                 <div class="comment-body">
                                                     <h3>John Doe</h3>
@@ -199,7 +202,8 @@
                                                 <ul class="children">
                                                     <li class="comment">
                                                         <div class="vcard bio">
-                                                            <img src="{{ asset ('assets/images/person_1.jpg') }}" alt="Image placeholder">
+                                                            <img src="{{ asset('assets/images/person_1.jpg') }}"
+                                                                alt="Image placeholder">
                                                         </div>
                                                         <div class="comment-body">
                                                             <h3>John Doe</h3>
@@ -221,7 +225,7 @@
 
                             <li class="comment">
                                 <div class="vcard bio">
-                                    <img src="{{ asset ('assets/images/person_1.jpg') }}" alt="Image placeholder">
+                                    <img src="{{ asset('assets/images/person_1.jpg') }}" alt="Image placeholder">
                                 </div>
                                 <div class="comment-body">
                                     <h3>John Doe</h3>
@@ -439,20 +443,20 @@
         </svg></div>
 
 
-    <script src="{{ asset ('assets/js/jquery.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery-migrate-3.0.1.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.easing.1.3.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.stellar.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/aos.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.animateNumber.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/scrollax.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-migrate-3.0.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.stellar.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/aos.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.animateNumber.min.js') }}"></script>
+    <script src="{{ asset('assets/js/scrollax.min.js') }}"></script>
 
-    <script src="{{ asset ('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 
