@@ -1,20 +1,57 @@
-node {
-    checkout scm
-    
-    // Deploy ke environment dev
-    stage("Build") {
-        docker.image('shippingdocker/php-composer:7.4').inside('-u root') {
-            sh '''
-                rm composer.lock
-                composer install
-            '''
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
         }
-    }
-    
-    // Tahap pengujian
-    stage("Testing") {
-        docker.image('ubuntu').inside('-u root') {
-            sh 'echo "Ini adalah test"'
+
+        stage('Build') {
+            steps {
+                script {
+                    docker.image('composer:2.6').inside('-u root') {
+                        sh '''
+                            cp .env.example .env || true
+                            rm -f composer.lock
+                            composer install --no-interaction --prefer-dist
+                        '''
+                    }
+                }
+            }
+        }
+
+        stage('Set APP_KEY') {
+            steps {
+                script {
+                    docker.image('php:8.2-cli').inside('-u root') {
+                        sh '''
+                            php artisan key:generate
+                        '''
+                    }
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                script {
+                    docker.image('php:8.2-cli').inside('-u root') {
+                        sh 'php artisan test'
+                    }
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                script {
+                    docker.image('ubuntu').inside('-u root') {
+                        sh 'echo "Deploying Laravel Application"'
+                    }
+                }
+            }
         }
     }
 }
