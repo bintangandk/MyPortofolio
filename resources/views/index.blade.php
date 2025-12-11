@@ -8,20 +8,20 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/open-iconic-bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/open-iconic-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/aos.css') }}">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/ionicons.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/icomoon.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/icomoon.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -42,7 +42,7 @@
                     <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
                     <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
                     <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-                    <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+                    {{-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> --}}
                     <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
                 </ul>
             </div>
@@ -91,11 +91,13 @@
                             <p>A small river named Duden flows by their place and supplies it with the necessary
                                 regelialia.</p>
                             <ul class="about-info mt-4 px-md-0 px-2">
-                                <li class="d-flex"><span>Name:</span> <span>Mohammad Nor Bintang Andika Ilhami</span></li>
+                                <li class="d-flex"><span>Name:</span> <span>Mohammad Nor Bintang Andika Ilhami</span>
+                                </li>
                                 <li class="d-flex"><span>Date of birth:</span> <span>June 09, 2024</span></li>
-                                <li class="d-flex"><span>Address:</span> <span>Perum Mastrip,Sumbersari 68121 Jember. Indonesia</span></li>
+                                <li class="d-flex"><span>Address:</span> <span>Perum Mastrip,Sumbersari 68121 Jember.
+                                        Indonesia</span></li>
                                 <li class="d-flex"><span>Email:</span> <span>bintangsmnp@gmail.com</span></li>
-                                <li class="d-flex"><span>Phone: </span> <span>+62-748100201</span></li>
+                                <li class="d-flex"><span>Phone: </span> <span>+62748100201</span></li>
                             </ul>
                         </div>
                     </div>
@@ -117,24 +119,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm ftco-animate">
-                    <a href="#" class="partner"><img src="{{ asset ('assets/images/partner-1.png') }}" class="img-fluid"
-                            alt="Colorlib Template"></a>
+                    <a href="https://www.linkedin.com/in/mohammad-nor-bintang-andika-ilhami-6717ab24a" class="partner"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="{{ asset('assets/images/linkedin.png') }}" class="img-fluid"
+                            alt="LinkedIn Profile">
+                    </a>
                 </div>
                 <div class="col-sm ftco-animate">
-                    <a href="#" class="partner"><img src="{{ asset ('assets/images/partner-2.png') }}" class="img-fluid"
-                            alt="Colorlib Template"></a>
+                    <a href="https://github.com/bintangandk" class="partner" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="{{ asset('assets/images/github.png') }}" class="img-fluid" alt="GitHub Profile">
+                    </a>
+
                 </div>
                 <div class="col-sm ftco-animate">
-                    <a href="#" class="partner"><img src="{{ asset ('assets/images/partner-3.png') }}" class="img-fluid"
-                            alt="Colorlib Template"></a>
+                    <a href="#" class="partner"><img src="{{ asset('assets/images/partner-3.png') }}"
+                            class="img-fluid" alt="Colorlib Template"></a>
                 </div>
                 <div class="col-sm ftco-animate">
-                    <a href="#" class="partner"><img src="{{ asset ('assets/images/partner-4.png') }}" class="img-fluid"
-                            alt="Colorlib Template"></a>
+                    <a href="#" class="partner"><img src="{{ asset('assets/images/partner-4.png') }}"
+                            class="img-fluid" alt="Colorlib Template"></a>
                 </div>
                 <div class="col-sm ftco-animate">
-                    <a href="#" class="partner"><img src="{{ asset ('assets/images/partner-5.png') }}" class="img-fluid"
-                            alt="Colorlib Template"></a>
+                    <a href="#" class="partner"><img src="{{ asset('assets/images/partner-5.png') }}"
+                            class="img-fluid" alt="Colorlib Template"></a>
                 </div>
             </div>
         </div>
@@ -149,7 +157,7 @@
                             <li><a href="#page-1">Education</a></li>
                             <li><a href="#page-2">Experience</a></li>
                             <li><a href="#page-3">Skills</a></li>
-                            <li><a href="#page-4">Awards</a></li>
+                            {{-- <li><a href="#page-4">Awards</a></li> --}}
                         </ul>
                     </nav>
                 </div>
@@ -212,7 +220,7 @@
 
                     <div id="page-2" class= "page two">
                         <h2 class="heading">Experience</h2>
-						<div class="resume-wrap d-flex ftco-animate">
+                        <div class="resume-wrap d-flex ftco-animate">
                             <div class="icon d-flex align-items-center justify-content-center">
                                 <span class="flaticon-ideas"></span>
                             </div>
@@ -232,7 +240,8 @@
                             <div class="text pl-3">
                                 <span class="date">Sep-Des 2023</span>
                                 <h2>Frontend Developer & UI/UX</h2>
-                                <span class="position">Intern on JTI Innovation Center - Politeknik Negeri Jember</span>
+                                <span class="position">Intern on JTI Innovation Center - Politeknik Negeri
+                                    Jember</span>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary
                                     regelialia. It is a paradisematic country, in which roasted parts of sentences fly
                                     into your mouth.</p>
@@ -441,7 +450,7 @@
                                     </div>
                                 </div>
                             </div>
-							<div class="col-md-6 animate-box">
+                            <div class="col-md-6 animate-box">
                                 <div class="progress-wrap ftco-animate">
                                     <h3>CSS</h3>
                                     <div class="progress">
@@ -452,7 +461,7 @@
                                     </div>
                                 </div>
                             </div>
-							<div class="col-md-6 animate-box">
+                            <div class="col-md-6 animate-box">
                                 <div class="progress-wrap ftco-animate">
                                     <h3>JS</h3>
                                     <div class="progress">
@@ -465,7 +474,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="page-4" class= "page four">
+                    {{-- <div id="page-4" class= "page four">
                         <h2 class="heading">Awards</h2>
                         <div class="resume-wrap d-flex ftco-animate">
                             <div class="icon d-flex align-items-center justify-content-center">
@@ -519,7 +528,7 @@
                                     into your mouth.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -531,7 +540,7 @@
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <h1 class="big big-2">Services</h1>
                     <h2 class="mb-4">Services</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    <p></p>
                 </div>
             </div>
             <div class="row">
@@ -553,7 +562,7 @@
                             <i class="flaticon-flasks"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Phtography</h3>
+                            <h3 class="mb-5">Mobile App Design</h3>
                             <p>A small river named Duden flows by their place and supplies it with the necessary
                                 regelialia.</p>
                         </div>
@@ -572,19 +581,19 @@
                     </a>
                 </div>
 
-                <div class="col-md-4 text-center d-flex ftco-animate">
+                {{-- <div class="col-md-4 text-center d-flex ftco-animate">
                     <a href="#" class="services-1 shadow">
                         <span class="icon">
                             <i class="flaticon-innovation"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">App Developing</h3>
+                            <h3 class="mb-5">UI/UX Design</h3>
                             <p>A small river named Duden flows by their place and supplies it with the necessary
                                 regelialia.</p>
                         </div>
                     </a>
-                </div>
-                <div class="col-md-4 text-center d-flex ftco-animate">
+                </div> --}}
+                {{-- <div class="col-md-4 text-center d-flex ftco-animate">
                     <a href="#" class="services-1 shadow">
                         <span class="icon">
                             <i class="flaticon-ux-design"></i>
@@ -607,7 +616,7 @@
                                 regelialia.</p>
                         </div>
                     </a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -688,7 +697,7 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+    {{-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
         <div class="container-fluid px-md-5">
             <div class="row d-md-flex align-items-center">
                 <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
@@ -725,10 +734,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
-    <section class="ftco-section" id="blog-section">
+    {{-- <section class="ftco-section" id="blog-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-5">
                 <div class="col-md-7 heading-section text-center ftco-animate">
@@ -740,10 +749,12 @@
             <div class="row d-flex">
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry justify-content-end">
-                        <a href="{{ route ('single')}}" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
+                        <a href="{{ route('single') }}" class="block-20"
+                            style="background-image: url('assets/images/image_1.jpg');">
                         </a>
                         <div class="text mt-3 float-right d-block">
-                            <h3 class="heading"><a href="{{ route ('single')}}">Why Lead Generation is Key for Business
+                            <h3 class="heading"><a href="{{ route('single') }}">Why Lead Generation is Key for
+                                    Business
                                     Growth</a></h3>
                             <div class="d-flex align-items-center mb-3 meta">
                                 <p class="mb-0">
@@ -759,10 +770,12 @@
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry justify-content-end">
-                        <a href="{{ route ('single')}}" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
+                        <a href="{{ route('single') }}" class="block-20"
+                            style="background-image: url('assets/images/image_2.jpg');">
                         </a>
                         <div class="text mt-3 float-right d-block">
-                            <h3 class="heading"><a href="{{ route ('single')}}">Why Lead Generation is Key for Business
+                            <h3 class="heading"><a href="{{ route('single') }}">Why Lead Generation is Key for
+                                    Business
                                     Growth</a></h3>
                             <div class="d-flex align-items-center mb-3 meta">
                                 <p class="mb-0">
@@ -778,10 +791,12 @@
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry">
-                        <a href="{{ route ('single')}}" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
+                        <a href="{{ route('single') }}" class="block-20"
+                            style="background-image: url('assets/images/image_3.jpg');">
                         </a>
                         <div class="text mt-3 float-right d-block">
-                            <h3 class="heading"><a href="{{ route ('single')}}">Why Lead Generation is Key for Business
+                            <h3 class="heading"><a href="{{ route('single') }}">Why Lead Generation is Key for
+                                    Business
                                     Growth</a></h3>
                             <div class="d-flex align-items-center mb-3 meta">
                                 <p class="mb-0">
@@ -797,7 +812,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="ftco-section ftco-hireme img" style="background-image: url(assets/images/bg_1.jpg)">
         <div class="overlay"></div>
@@ -817,8 +832,8 @@
             <div class="row justify-content-center mb-5 pb-3">
                 <div class="col-md-7 heading-section text-center ftco-animate">
                     <h1 class="big big-2">Contact</h1>
-                    <h2 class="mb-4">Contact Me</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    <h2 class="mb-4">Contact Me</h2>œ
+                    {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> --}}
                 </div>
             </div>
 
@@ -830,7 +845,8 @@
                         </div>
                         <div>
                             <h3 class="mb-4">Address</h3>
-                            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                            <p>Perum Mastrip,Sumbersari 68121 Jember.
+                                Indonesia</p>
                         </div>
                     </div>
                 </div>
@@ -841,7 +857,7 @@
                         </div>
                         <div>
                             <h3 class="mb-4">Contact Number</h3>
-                            <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+                            <p><a href="tel://1234567920">+62748100201</a></p>
                         </div>
                     </div>
                 </div>
@@ -852,7 +868,7 @@
                         </div>
                         <div>
                             <h3 class="mb-4">Email Address</h3>
-                            <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                            <p><a href="mailto:info@yoursite.com">bintangsmnp@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -986,20 +1002,20 @@
         </svg></div>
 
 
-    <script src="{{ asset ('assets/js/jquery.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery-migrate-3.0.1.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.easing.1.3.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.stellar.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/aos.js') }}"></script>
-    <script src="{{ asset ('assets/js/jquery.animateNumber.min.js') }}"></script>
-    <script src="{{ asset ('assets/js/scrollax.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-migrate-3.0.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.stellar.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/aos.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.animateNumber.min.js') }}"></script>
+    <script src="{{ asset('assets/js/scrollax.min.js') }}"></script>
 
-    <script src="{{ asset ('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 
