@@ -30,15 +30,15 @@
                          </ul>
                      </div>
                  </div>
-                 <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                 {{-- <div class="counter-wrap ftco-animate d-flex mt-md-3">
                      <div class="text">
                          <p class="mb-4">
                              <span class="number" data-number="8">0</span>
                              <span>Project complete</span>
                          </p>
-                         {{-- <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p> --}}
+                         <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
                      </div>
-                 </div>
+                 </div> --}}
              </div>
          </div>
      </div>
@@ -46,30 +46,24 @@
 
  <section class="ftco-section ftco-partner">
      <div class="container">
-         <div class="row">
-             <div class="col-sm ftco-animate">
+         <div class="row justify-content-center align-items-center">
+             <div class="col-sm ftco-animate partner-item">
                  <a href="https://www.linkedin.com/in/mohammad-nor-bintang-andika-ilhami-6717ab24a" class="partner"
                      target="_blank" rel="noopener noreferrer">
-                     <img src="{{ asset('assets/images/linkedin.png') }}" class="img-fluid" alt="LinkedIn Profile">
+                     <img src="{{ asset('assets/images/linkedin.png') }}" alt="LinkedIn">
                  </a>
              </div>
-             <div class="col-sm ftco-animate">
-                 <a href="https://github.com/bintangandk" class="partner" target="_blank" rel="noopener noreferrer">
-                     <img src="{{ asset('assets/images/github.png') }}" class="img-fluid" alt="GitHub Profile">
-                 </a>
 
+             <div class="col-sm ftco-animate partner-item">
+                 <a href="https://github.com/bintangandk" class="partner" target="_blank" rel="noopener noreferrer">
+                     <img src="{{ asset('assets/images/github.png') }}" alt="GitHub">
+                 </a>
              </div>
-             <div class="col-sm ftco-animate">
-                 <a href="#" class="partner"><img src="{{ asset('assets/images/partner-3.png') }}"
-                         class="img-fluid" alt="Colorlib Template"></a>
-             </div>
-             <div class="col-sm ftco-animate">
-                 <a href="#" class="partner"><img src="{{ asset('assets/images/partner-4.png') }}"
-                         class="img-fluid" alt="Colorlib Template"></a>
-             </div>
-             <div class="col-sm ftco-animate">
-                 <a href="#" class="partner"><img src="{{ asset('assets/images/partner-5.png') }}"
-                         class="img-fluid" alt="Colorlib Template"></a>
+
+             <div class="col-sm ftco-animate partner-item">
+                 <a href="mailto:bintangsmnp@gmail.com" class="partner">
+                     <img src="{{ asset('assets/images/partner-4.png') }}" alt="">
+                 </a>
              </div>
          </div>
      </div>

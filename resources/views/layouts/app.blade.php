@@ -22,6 +22,21 @@
     <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/icomoon.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+    <style>
+        .partner-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .partner-item img {
+            width: 200px;
+            /* samakan ukuran */
+            height: 200px;
+            object-fit: contain;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">

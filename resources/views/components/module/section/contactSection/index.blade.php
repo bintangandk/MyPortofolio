@@ -43,8 +43,20 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box text-center p-4 shadow">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-paper-plane"></span>
+                    </div>
+                    <div>
+                        <h3 class="mb-4">LinkedIn</h3>
+                        <p><a href="https://www.linkedin.com/in/bintangandk-6717ab24a">Mohammad Nor Bintang Andika
+                                Ilhami</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-
+        {{-- 
         <div class="row no-gutters block-9">
             <div class="col-md-6 order-md-last d-flex">
                 <form action="#" class="bg-light p-4 p-md-5 contact-form">
@@ -70,6 +82,6 @@
             <div class="col-md-6 d-flex">
                 <div class="img" style="background-image: url(assets/images/person2.png);"></div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>
