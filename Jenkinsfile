@@ -11,11 +11,10 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    docker.image('composer:2.6').inside('-u root') {
+                    docker.image('composer:2').inside('-u root') {
                         sh '''
                             cp .env.example .env || true
-                            rm -f composer.lock
-                            composer install --no-interaction --prefer-dist
+                            composer install --no-interaction --prefer-dist --optimize-autoloader
                         '''
                     }
                 }
@@ -25,7 +24,7 @@ pipeline {
         stage('Set APP_KEY') {
             steps {
                 script {
-                    docker.image('php:8.2-cli').inside('-u root') {
+                    docker.image('php:8.4-cli').inside('-u root') {
                         sh '''
                             php artisan key:generate
                         '''
@@ -37,7 +36,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    docker.image('php:8.2-cli').inside('-u root') {
+                    docker.image('php:8.4-cli').inside('-u root') {
                         sh 'php artisan test'
                     }
                 }
@@ -47,9 +46,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    docker.image('ubuntu').inside('-u root') {
-                        sh 'echo "Deploying Laravel Application"'
-                    }
+                    sh 'echo "CI checks passed. Ready for Vercel deployment."'
                 }
             }
         }
